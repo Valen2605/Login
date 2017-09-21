@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.valentina.login.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usuario"
+         />
+
+    <EditText
+        android:id="@+id/txtusuario"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+         />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        />
+
+    <EditText
+        android:id="@+id/txtcontra"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/btnaceptar"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:text="Entrar"
+        android:layout_alignParentTop="true" />
+    </RelativeLayout>
+
+</LinearLayout>
+
+
+
+
